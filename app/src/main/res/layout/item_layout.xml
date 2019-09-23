@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_outgoing_call"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/tvNumberName"
+        android:layout_toRightOf="@+id/imgCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123254678"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_toRightOf="@+id/imgCall"
+        android:layout_below="@+id/tvNumberName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Việt Nam"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_toLeftOf="@+id/imgInfo"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/09/2019"
+        android:textSize="15sp"/>
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/imgInfo"
+        android:src="@drawable/ic_information"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>
